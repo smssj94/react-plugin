@@ -1,0 +1,7 @@
+{
+  "name": "react-plugin",
+  "id": "980400805621676783",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}
