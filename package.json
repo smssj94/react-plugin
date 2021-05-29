@@ -4,8 +4,15 @@
   "description": "Your Figma plugin",
   "main": "code.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc --watch"
   },
   "author": "",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.23.0"
+  },
+  "dependencies": {
+    "feather-icons": "^4.28.0"
+  }
 }
